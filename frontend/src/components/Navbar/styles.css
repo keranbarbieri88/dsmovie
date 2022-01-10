@@ -1,0 +1,35 @@
+/*Cabeçalho:tamanho de 60px, com a cor primária que configuramos no index.css,display flex permite
+um elemento ao lado do outro, alinhado ao centro*/
+header {
+    height: 60px;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+ /*display flex permite um elemento ao lado do outro,  alinhado ao centro, com espaço entre os elementos
+   */
+.dsmovie-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+/*margem e tamanho da fonte do h1 dentro da classe dsmovie-nav-content */
+.dsmovie-nav-content h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/*display flex permite um elemento ao lado do outro,  alinhado ao centro*/
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+/*margem e tamanho da fonte do GithubIcon*/
+.dsmovie-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
