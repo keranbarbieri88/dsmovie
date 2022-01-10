@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*cor de destaque*/
+:root {
+  --color-primary: #4D41C0;
+}
+
+/*o asterisco indica que todos os elementos HTML terão o mesmo padrão*/
+* {
+  /*o espaçamento interno de um componente e a borda dele não ocupem espaço a mais do que o definido*/
+    box-sizing: border-box;
+  /*fonte*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*cor de fundo*/
+html, body {
+    background-color: #E5E5E5;
+}
+
+/*sempre que houver um link, não haverá decoração no texto e também não haverá cor de destaque*/
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
