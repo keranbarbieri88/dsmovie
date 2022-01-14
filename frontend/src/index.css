@@ -2,7 +2,7 @@
 
 /*cor de destaque*/
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #956BCB;
 }
 
 /*o asterisco indica que todos os elementos HTML terão o mesmo padrão*/
@@ -15,7 +15,7 @@
 
 /*cor de fundo*/
 html, body {
-    background-color: #E5E5E5;
+    background-color: #272727;
 }
 
 /*sempre que houver um link, não haverá decoração no texto e também não haverá cor de destaque*/
