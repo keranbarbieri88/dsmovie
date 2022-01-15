@@ -30,9 +30,13 @@ function Listing() {
             });
     }, [pageNumber]);
 
+    const handleOageChanges = (newPageNumber : number) => {
+        setPageNumber(newPageNumber);
+    }
+
     return (
         <>
-            <Pagination />
+            <Pagination page={page} onChange={handleOageChanges}/>
 
             <div className="container">
                 <div className="row">
